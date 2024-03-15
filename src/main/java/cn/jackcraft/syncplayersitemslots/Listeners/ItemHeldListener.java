@@ -11,10 +11,11 @@ public class ItemHeldListener implements Listener {
     @EventHandler(priority = EventPriority.LOW)
     public void onPlayerItemHeld(PlayerItemHeldEvent event) {
         Player player = event.getPlayer();
+        if (player.hasPermission("syncplayersitemslots.bypass")) return;
         Player[] players = Bukkit.getServer().getOnlinePlayers().toArray(new Player[0]);
         int currentSlot = event.getNewSlot();
         for (Player p : players){
-            if (!p.equals(player)){
+            if (!p.equals(player) && !p.hasPermission("syncplayersitemslots.bypass")) {
                 p.getInventory().setHeldItemSlot(currentSlot);
             }
         }
