@@ -3,3 +3,4 @@ version: '${project.version}'
 main: cn.jackcraft.syncplayersitemslots.SyncPlayersItemSlots
 load: STARTUP
 authors: [imJack_]
+website: https://github.com/JackCraftTeam/SyncPlayersItemSlots
