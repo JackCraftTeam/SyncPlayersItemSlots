@@ -1,0 +1,5 @@
+name: SyncPlayersItemSlots
+version: '${project.version}'
+main: cn.jackcraft.syncplayersitemslots.SyncPlayersItemSlots
+load: STARTUP
+authors: [imJack_]
