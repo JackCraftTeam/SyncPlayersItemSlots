@@ -17,7 +17,7 @@ public class PlayerJoinListener implements Listener {
         if (player.hasPermission("syncplayersitemslots.bypass")) return;
         Map<Integer, Integer> slotCounts = new HashMap<>();
         for (Player p : Bukkit.getOnlinePlayers()) {
-            if (!p.hasPermission("syncplayersitemslots.bypass")) return;
+            if (!p.hasPermission("syncplayersitemslots.bypass")) continue;
             int slot = p.getInventory().getHeldItemSlot();
             slotCounts.put(slot, slotCounts.getOrDefault(slot, 0) + 1);
         }
