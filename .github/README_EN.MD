@@ -13,3 +13,9 @@ Just put it directly into the `plugins` folder. There is no configuration file o
 
 ### Permissions
 - [OP] `syncplayersitemslots.bypass` - Players with this permission do not synchronize their inventory slots.
+
+------------
+
+### Other Projects
+#### Entertainment
+- [SyncPlayersHealth](https://github.com/JackCraftTeam/SyncPlayersHealth) - Synchronizes the health of all players.

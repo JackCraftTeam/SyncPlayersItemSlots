@@ -13,3 +13,9 @@ README> 中文 | [English](.github/README_EN.MD)
 
 ### 权限
 - [OP] `syncplayersitemslots.bypass` - 拥有此权限的玩家不同步自己的物品栏槽位。
+
+------------
+
+### 其它项目
+#### 娱乐类
+- [SyncPlayersHealth](https://github.com/JackCraftTeam/SyncPlayersHealth) - 同步所有玩家的血量。
