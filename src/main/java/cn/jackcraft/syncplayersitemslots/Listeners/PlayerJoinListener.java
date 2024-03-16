@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class PlayerJoinListener implements Listener {
-    @EventHandler(priority = EventPriority.LOW)
+    @EventHandler(priority = EventPriority.LOW, ignoreCancelled = true)
     public void onPlayerJoin(PlayerJoinEvent event) {
         Player player = event.getPlayer();
         if (player.hasPermission("syncplayersitemslots.bypass")) return;
