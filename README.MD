@@ -19,3 +19,4 @@ README> 中文 | [English](.github/README_EN.MD)
 ### 其它项目
 #### 娱乐类
 - [SyncPlayersHealth](https://github.com/JackCraftTeam/SyncPlayersHealth) - 同步所有玩家的血量。
+- [SyncPlayersFoodLevel](https://github.com/JackCraftTeam/SyncPlayersFoodLevel) - 同步所有玩家的饥饿值。

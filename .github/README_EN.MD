@@ -19,3 +19,4 @@ Just put it directly into the `plugins` folder. There is no configuration file o
 ### Other Projects
 #### Entertainment
 - [SyncPlayersHealth](https://github.com/JackCraftTeam/SyncPlayersHealth) - Synchronizes the health of all players.
+- [SyncPlayersFoodLevel](https://github.com/JackCraftTeam/SyncPlayersFoodLevel) - Synchronizes the food levels of all players.
